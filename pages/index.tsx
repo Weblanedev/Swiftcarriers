@@ -15,8 +15,8 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
       <Head>
         <title>{EnvVars.SITE_NAME}</title>
         <meta
-          name="description"
-          content="Tempor nostrud velit fugiat nostrud duis incididunt Lorem deserunt est tempor aute dolor ad elit."
+          name="Haempstad Solutions Ltd"
+          content="At Haempstad Solutions Ltd, our mission is to empower our customers with the tools, materials, and expertise they need to turn their dreams into reality. We are committed to providing top-quality products."
         />
       </Head>
       <HomepageWrapper>
