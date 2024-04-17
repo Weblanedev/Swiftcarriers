@@ -30,7 +30,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           </BasicSection>
           <BasicSection imageUrl="https://images.pexels.com/photos/8113779/pexels-photo-8113779.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" title="Our Vision" overTitle="" reversed>
             <p>
-            Our vision at Haempstad Solutions Ltd is to be the premier destination for hardware and contracting services, known for our unwavering commitment to quality, innovation, and customer satisfaction. We strive to be a trusted partner in every step of our customers' home improvement journey, inspiring creativity, fostering collaboration, and building lasting relationships within our community.
+            Our vision at Haempstad Solutions Ltd is to be the premier destination for hardware and contracting services, known for our unwavering commitment to quality, innovation, and customer satisfaction. We strive to be a trusted partner in every step of our customers home improvement journey, inspiring creativity, fostering collaboration, and building lasting relationships within our community.
             </p>
            
           </BasicSection>
