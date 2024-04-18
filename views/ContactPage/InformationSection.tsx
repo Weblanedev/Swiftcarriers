@@ -5,10 +5,10 @@ export default function InformationSection() {
     <Wrapper>
       <h3>Contact Info</h3>
       <p>
-        <span>Email:</span> support@myawesomesaas.com
+        <span>Email:</span> support@haempstad.com
       </p>
       <p>
-        <span>Phone:</span> 
+        <span>Phone:</span> +234-908-560-3575
       </p>
       <p>
         <span>Location:</span> Lagos, Nigeria

@@ -97,16 +97,16 @@ const Billing = () => {
     <div className="w-full h-full flex flex-col pt-[66px] md:pt-[0px]">
       <section className="relative h-[250px] md:h-[300px]">
         <div className="flex flex-col gap-2 items-center justify-center h-full w-full">
-          <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-blue-950">
+          <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-[#707070]">
             Order Details
           </h1>
-          <p>Find the best way to get help and connect with Splashtop</p>
+          <p>Find the best way to get help and connect with Haempstad</p>
         </div>
       </section>
 
       <section className="relative p-10 md:px-[130px] md:pb-[130px] flex flex-col lg:flex-row gap-8 items-center lg:items-start w-full justify-center">
         <div className="flex flex-col gap-8 items-start w-full justify-center lg:pr-8 lg:border-r">
-          <div className="flex flex-col gap-2.5 text-[#181616] items-start justify-center lg:w-[720px]">
+          <div className="flex flex-col gap-2.5 text-[#707070] items-start justify-center lg:w-[720px]">
             <h2 className="text-[32px] font-medium">Billing details</h2>
           </div>
 
@@ -142,13 +142,13 @@ const Billing = () => {
               />
             </form>
 
-            <div className="flex flex-col gap-5 mt-10 text-[#181616] items-start justify-center lg:w-[720px]">
+            <div className="flex flex-col gap-5 mt-10 text-[#707070] items-start justify-center lg:w-[720px]">
               <h2 className="text-[32px] font-medium">Additional Details</h2>
 
               <textarea
                 id="message"
                 rows={7}
-                className="block p-[15px] w-full text-sm text-gray-900 border border-gray-300 rounded-md"
+                className="block p-[15px] w-full text-sm text-gray-900 border text-[15px] border-gray-300 rounded-md placeholder:text-[15px]"
                 placeholder="Your Message"
               ></textarea>
             </div>
@@ -156,7 +156,7 @@ const Billing = () => {
         </div>
 
         <div className="flex flex-col gap-[15px] items-start w-full justify-center">
-          <h4 className="font-bold text-blue-500 leading-[28px]">
+          <h4 className="font-bold text-blue-500 leading-[28px] text-[20px]">
             YOUR ORDER
           </h4>
 
@@ -170,10 +170,10 @@ const Billing = () => {
               </h4>
             </div>
             <div className="flex items-center justify-between py-[15px] w-full border-b">
-              <h4 className="text-[#161616] font-medium text-[16px] leading-5 upperc ase w-[350px]">
+              <h4 className="text-[#707070] font-medium text-[16px] leading-5 upperc ase w-[350px]">
                 {selectedItem?.name}
               </h4>
-              <h4 className="text-[#161616] font-medium text-[16px]">
+              <h4 className="text-[#707070] font-medium text-[16px]">
                 ${selectedItem?.price}
               </h4>
             </div>
@@ -181,7 +181,7 @@ const Billing = () => {
               <h4 className="text-[#707070] uppercase font-medium text-[13px]">
                 Labor service charge
               </h4>
-              <h4 className="text-[#161616] font-medium text-[16px]">
+              <h4 className="text-[#707070] font-medium text-[16px]">
                 $100.00
               </h4>
             </div>
@@ -189,7 +189,7 @@ const Billing = () => {
               <h4 className="text-[#707070] uppercase font-medium text-[13px]">
                 Processing Fee
               </h4>
-              <h4 className="text-[#161616] font-medium text-[16px]">
+              <h4 className="text-[#707070] font-medium text-[16px]">
                 $5.00
               </h4>
             </div>
@@ -206,7 +206,7 @@ const Billing = () => {
               <label className="relative w-full flex flex-col">
                 <span className="font-bold mb-3">Card holder{"'"}s name</span>
                 <input
-                  className="rounded-md peer pl-12 pr-2 py-2 border-2 text-[18px] border-gray-200 placeholder-gray-300"
+                  className="rounded-md peer pl-12 pr-2 py-2 border-2 text-[15px] border-gray-200 placeholder-gray-300"
                   type="text"
                   name="card_holders_name"
                   placeholder="JOHN DOE"
@@ -233,7 +233,7 @@ const Billing = () => {
               <label className="relative w-full flex flex-col">
                 <span className="font-bold mb-3">Card number</span>
                 <input
-                  className="rounded-md text-[18px] peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300"
+                  className="rounded-md text-[15px] peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300"
                   type="text"
                   name="card_number"
                   required
@@ -261,7 +261,7 @@ const Billing = () => {
                 <label className="relative w-full lg:flex-1 flex flex-col">
                   <span className="font-bold mb-3">Expire date</span>
                   <input
-                    className="rounded-md text-[18px] peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300"
+                    className="rounded-md text-[15px] peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300"
                     type="text"
                     name="expire_date"
                     required
@@ -309,7 +309,7 @@ const Billing = () => {
                     </span>
                   </span>
                   <input
-                    className="rounded-md text-[18px] peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300"
+                    className="rounded-md text-[15px] peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300"
                     type="text"
                     name="card_cvc"
                     required
@@ -355,12 +355,12 @@ const Billing = () => {
               </p>
             </div>
 
-            <p className="text-[#161616] font-normal text-[16px] text-left">
+            <p className="text-[#707070] font-normal text-[16px] text-left">
               Your personal data will be used to process your order, support
               your experience throughout this website, and for other purposes
               described in our{" "}
               <Link
-                href="/privacy-policy"
+                href="/"
               >
                 privacy policy.
               </Link>
