@@ -206,7 +206,7 @@ const Billing = () => {
               <label className="relative w-full flex flex-col">
                 <span className="font-bold mb-3">Card holder{"'"}s name</span>
                 <input
-                  className="rounded-md peer pl-12 pr-2 py-2 border-2 text-[15px] border-gray-200 placeholder-gray-300"
+                  className="text-black rounded-md peer pl-12 pr-2 py-2 border-2 text-[15px] border-gray-200 placeholder-gray-300"
                   type="text"
                   name="card_holders_name"
                   placeholder="JOHN DOE"
@@ -233,7 +233,7 @@ const Billing = () => {
               <label className="relative w-full flex flex-col">
                 <span className="font-bold mb-3">Card number</span>
                 <input
-                  className="rounded-md text-[15px] peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300"
+                  className="text-black rounded-md text-[15px] peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300"
                   type="text"
                   name="card_number"
                   required
@@ -261,7 +261,7 @@ const Billing = () => {
                 <label className="relative w-full lg:flex-1 flex flex-col">
                   <span className="font-bold mb-3">Expire date</span>
                   <input
-                    className="rounded-md text-[15px] peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300"
+                    className="text-black rounded-md text-[15px] peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300"
                     type="text"
                     name="expire_date"
                     required
@@ -309,7 +309,7 @@ const Billing = () => {
                     </span>
                   </span>
                   <input
-                    className="rounded-md text-[15px] peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300"
+                    className="text-black rounded-md text-[15px] peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300"
                     type="text"
                     name="card_cvc"
                     required
