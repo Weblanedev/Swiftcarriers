@@ -16,7 +16,7 @@ export default function Cta() {
           {/* <OverTitle>Lorem ipsum dolor sit amet</OverTitle> */}
           <SectionTitle>Ready to Get Started?</SectionTitle>
           <Description>
-          Whether you need reliable freight transportation, efficient warehousing, or custom supply chain solutions, we’ve got you covered. Let us handle your logistics so you can focus on what you do best – growing your business.
+          Whether you need reliable freight transportation, efficient warehousing, or custom supply chain solutions, we{"'"}ve got you covered. Let us handle your logistics so you can focus on what you do best growing your business.
           </Description>
           <ButtonGroup>
             <NextLink href="/contact" passHref>

@@ -22,15 +22,15 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
       <HomepageWrapper>
         <WhiteBackgroundContainer>
           <Hero />
-          {/* <Partners /> */}
+          <Partners />
           <BasicSection imageUrl="https://images.pexels.com/photos/4481259/pexels-photo-4481259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" title="Our Mission" overTitle="">
             <p>
-            Our mission is to deliver superior logistics solutions that exceed our customers' expectations. We strive to provide the highest level of service through innovation, technology, and a dedicated team of professionals. Our goal is to enhance the efficiency and reliability of our clients' supply chains, ensuring their success and growth.
+            Our mission is to deliver superior logistics solutions that exceed our customers{"'"} expectations. We strive to provide the highest level of service through innovation, technology, and a dedicated team of professionals. Our goal is to enhance the efficiency and reliability of our clients{"'"} supply chains, ensuring their success and growth.
             </p>
           </BasicSection>
           <BasicSection imageUrl="https://images.pexels.com/photos/4483774/pexels-photo-4483774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" title="Our Vision" overTitle="" reversed>
             <p>
-            Our vision is to be the foremost logistics provider, recognized for our unwavering commitment to excellence, sustainability, and customer-centric solutions. We aim to lead the industry in innovation and operational efficiency, setting new standards for logistics services worldwide..
+            Our vision is to be the foremost logistics provider, recognized for our unwavering commitment to excellence, sustainability, and customer-centric solutions. We aim to lead the industry in innovation and operational efficiency, setting new standards for logistics services worldwide.
             </p>
            
           </BasicSection>

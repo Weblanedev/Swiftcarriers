@@ -5,13 +5,14 @@ export default function InformationSection() {
     <Wrapper>
       <h3>Contact Info</h3>
       <p>
-        <span>Email:</span> support@haempstad.com
+        <span>Email:</span> operations@swiftcarriers.ng
       </p>
       <p>
         <span>Phone:</span> +234-908-560-3575
       </p>
       <p>
-        <span>Location:</span> Lagos, Nigeria
+        <span>Location:</span> 5, Odebiyi Street, Off Haruna Road, Ogba, Lagos State, Nigeria
+
       </p>
     </Wrapper>
   );
