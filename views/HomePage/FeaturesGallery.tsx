@@ -10,26 +10,26 @@ import { media } from 'utils/media';
 
 const TABS = [
   {
-    title: 'Quality Products:',
+    title: 'Reliability',
     description:
-      '<p>We source our hardware products from trusted manufacturers to ensure durability, performance, and reliability.</p>',
-    imageUrl: 'https://images.pexels.com/photos/5718906/pexels-photo-5718906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      '<p>We ensure that your goods are delivered on time, every time. Our robust logistics network and experienced team guarantee consistent and dependable service.</p>',
+    imageUrl: 'https://images.pexels.com/photos/7362962/pexels-photo-7362962.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     baseColor: '249,82,120',
     secondColor: '221,9,57',
   },
   {
-    title: 'Expertise',
+    title: 'Safety and Compliance',
     description:
-      '<p>Our team of professionals possesses the knowledge and skills to handle a wide range of hardware and contracting projects, delivering exceptional results that exceed expectations.</p>',
-    imageUrl: 'https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      '<p>We adhere to the highest safety standards and regulatory requirements, ensuring the secure and compliant transport of your goods.</p>',
+    imageUrl: 'https://images.pexels.com/photos/4480984/pexels-photo-4480984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     baseColor: '57,148,224',
     secondColor: '99,172,232',
   },
   {
-    title: 'Customer Service',
+    title: 'Customer-Centric',
     description:
-      '<p>At Haempstad Solutions Ltd, we prioritize customer satisfaction above all else. We are committed to providing personalized service, timely assistance, and reliable support to our valued customers.</p>',
-    imageUrl: 'https://images.pexels.com/photos/14953886/pexels-photo-14953886.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      '<p>Our customers are at the heart of everything we do. We tailor our services to meet your specific requirements and provide personalized solutions.</p>',
+    imageUrl: 'https://images.pexels.com/photos/3905831/pexels-photo-3905831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     baseColor: '88,193,132',
     secondColor: '124,207,158',
   },
@@ -76,7 +76,7 @@ export default function FeaturesGallery() {
   return (
     <FeaturesGalleryWrapper>
       <Content>
-        <SectionTitle>Why Choose Haempstad Solutions Ltd?</SectionTitle>
+        <SectionTitle>Why Choose Swiftcarriers Haulage Services Limited?</SectionTitle>
       </Content>
       <GalleryWrapper>
         <TabsContainer>{tabsMarkup}</TabsContainer>

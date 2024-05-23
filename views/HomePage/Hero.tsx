@@ -15,10 +15,9 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <Heading>Welcome to Haempstad Solutions Ltd</Heading>
+        <Heading>Welcome to Swiftcarriers Haulage Services Limited</Heading>
         <Description>
-        At Haempstad Solutions Ltd, we are your one-stop destination for all your hardware needs and contracting services. With a commitment to quality, reliability, and customer satisfaction, we strive to provide comprehensive solutions to meet your home improvement and construction requirements.
-        </Description>
+        Swiftcarriers Haulage Services Limited is a leading logistics company dedicated to providing efficient and reliable transportation solutions. With years of experience in the industry, we have built a reputation for excellence, ensuring timely delivery and the safe handling of goods. Our commitment to customer satisfaction and continuous improvement has positioned us as a trusted partner in the logistics sector. </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
             Subscribe to the newsletter <span>&rarr;</span>
@@ -32,7 +31,7 @@ export default function Hero() {
       </Contents>
       <ImageContainer>
       <Image
-          src={"https://images.pexels.com/photos/13312223/pexels-photo-13312223.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}
+          src={"https://images.pexels.com/photos/2449454/pexels-photo-2449454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}
           width={550}
           height={550}
           alt="features"
@@ -101,7 +100,7 @@ const CustomOverTitle = styled(OverTitle)`
 `;
 
 const Heading = styled.h1`
-  font-size: 7.2rem;
+  font-size: 6.2rem;
   font-weight: bold;
   line-height: 1.1;
   margin-bottom: 4rem;

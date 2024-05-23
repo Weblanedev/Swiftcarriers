@@ -22,7 +22,7 @@ export default function BasicCard({ title, description, imageUrl, price }: Basic
   }
   return (
     <Card>
-      {imageUrl && <NextImage src={imageUrl} width={128} height={128} alt={title} />}
+      {imageUrl && <NextImage src={imageUrl} width={200} height={150} alt={title} />}
       <Title>{title}</Title>
      {description && <Description>{description}</Description> }
       <Description>${price}</Description>

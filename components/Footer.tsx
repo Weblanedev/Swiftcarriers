@@ -18,10 +18,10 @@ const footerItems: FooterItems = [
     ],
   },
   {
-    title: 'Product',
+    title: 'Services',
     items: [
       { title: 'Services', href: '/services' },
-      { title: 'Products', href: '/products' },
+      // { title: 'Products', href: '/products' },
     ],
   },
   {

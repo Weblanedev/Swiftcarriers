@@ -15,36 +15,37 @@ export const GlobalStyle = createGlobalStyle`
 @tailwind utilities;
 
 .next-light-theme {
-  --background: 251,251,253;
-  --secondBackground: 255,255,255;
-  --text: 10,18,30;
-  --textSecondary: 255,255,255;
-  --primary: 22,115,255; 
-  --secondary: 10,18,30;
-  --tertiary: 231,241,251;
-  --cardBackground: 255,255,255;
-  --inputBackground: 255,255,255;
-  --navbarBackground: 255,255,255;
-  --modalBackground: 251,251,253;
-  --errorColor: 207,34,46;
-  --logoColor: #243A5A;
+  --background: 251,251,253; /* Light grey background */
+  --secondBackground: 245,245,245; /* Slightly darker light grey */
+  --text: 10,18,30; /* Dark grey text */
+  --textSecondary: 255,255,255; /* Light grey text for secondary content */
+  --primary: 128,128,128; /* Grey primary color */
+  --secondary: 64,64,64; /* Dark grey secondary color */
+  --tertiary: 220,220,220; /* Light grey tertiary color */
+  --cardBackground: 255,255,255; /* White card background */
+  --inputBackground: 245,245,245; /* Light grey input background */
+  --navbarBackground: 255,255,255; /* White navbar background */
+  --modalBackground: 251,251,253; /* Light grey modal background */
+  --errorColor: 207,34,46; /* Red for errors */
+  --logoColor: #404040; /* Dark grey for logo */
 }
 
 .next-dark-theme {
-  --background: 26,32,44;
-  --secondBackground: 45,55,72;
-  --text: 237,237,238;
-  --textSecondary: 255,255,255;
-  --primary: 22,115,255; 
-  --secondary: 10,18,30;
-  --tertiary: 231,241,251;
-  --cardBackground: 45,55,72;
-  --inputBackground: 45,55,72;
-  --navbarBackground: 45,55,72;
-  --modalBackground: 26,32,44;
-  --errorColor: 207,34,46;
-  --logoColor: #fff;
+  --background: 34,34,34; /* Dark grey background */
+  --secondBackground: 45,45,45; /* Slightly lighter dark grey */
+  --text: 237,237,238; /* Light grey text */
+  --textSecondary: 200,200,200; /* Light grey text for secondary content */
+  --primary: 128,128,128; /* Grey primary color */
+  --secondary: 64,64,64; /* Dark grey secondary color */
+  --tertiary: 90,90,90; /* Dark grey tertiary color */
+  --cardBackground: 45,45,45; /* Dark grey card background */
+  --inputBackground: 45,45,45; /* Dark grey input background */
+  --navbarBackground: 45,45,45; /* Dark grey navbar background */
+  --modalBackground: 34,34,34; /* Dark grey modal background */
+  --errorColor: 207,34,46; /* Red for errors */
+  --logoColor: #FFFFFF; /* White for logo */
 }
+
 
 :root {
   --font: 'Poppins', sans-serif;

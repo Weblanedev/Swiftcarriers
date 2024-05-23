@@ -15,22 +15,22 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
       <Head>
         <title>{EnvVars.SITE_NAME}</title>
         <meta
-          name="Haempstad Solutions Ltd"
-          content="At Haempstad Solutions Ltd, our mission is to empower our customers with the tools, materials, and expertise they need to turn their dreams into reality. We are committed to providing top-quality products."
+          name="Swiftcarriers Haulage Services Limited"
+          content="Swiftcarriers Haulage Services Limited is a leading logistics company dedicated to providing efficient and reliable transportation solutions. With years of experience in the industry, we have built a reputation for excellence, ensuring timely delivery and the safe handling of goods. Our commitment to customer satisfaction and continuous improvement has positioned us as a trusted partner in the logistics sector."
         />
       </Head>
       <HomepageWrapper>
         <WhiteBackgroundContainer>
           <Hero />
-          <Partners />
-          <BasicSection imageUrl="https://images.pexels.com/photos/9389356/pexels-photo-9389356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" title="Our Mission" overTitle="">
+          {/* <Partners /> */}
+          <BasicSection imageUrl="https://images.pexels.com/photos/4481259/pexels-photo-4481259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" title="Our Mission" overTitle="">
             <p>
-            At Haempstad Solutions Ltd, our mission is to empower our customers with the tools, materials, and expertise they need to turn their dreams into reality. We are committed to providing top-quality products, exceptional service, and expert guidance to help homeowners and contractors alike achieve their home improvement goals with confidence and ease.
+            Our mission is to deliver superior logistics solutions that exceed our customers' expectations. We strive to provide the highest level of service through innovation, technology, and a dedicated team of professionals. Our goal is to enhance the efficiency and reliability of our clients' supply chains, ensuring their success and growth.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="https://images.pexels.com/photos/8113779/pexels-photo-8113779.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" title="Our Vision" overTitle="" reversed>
+          <BasicSection imageUrl="https://images.pexels.com/photos/4483774/pexels-photo-4483774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" title="Our Vision" overTitle="" reversed>
             <p>
-            Our vision at Haempstad Solutions Ltd is to be the premier destination for hardware and contracting services, known for our unwavering commitment to quality, innovation, and customer satisfaction. We strive to be a trusted partner in every step of our customers home improvement journey, inspiring creativity, fostering collaboration, and building lasting relationships within our community.
+            Our vision is to be the foremost logistics provider, recognized for our unwavering commitment to excellence, sustainability, and customer-centric solutions. We aim to lead the industry in innovation and operational efficiency, setting new standards for logistics services worldwide..
             </p>
            
           </BasicSection>

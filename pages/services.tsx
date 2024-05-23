@@ -7,54 +7,56 @@ import { media } from 'utils/media';
 
 const FEATURES = [
   {
-    // imageUrl: '/grid-icons/asset-1.svg',
-    title: 'Plumbing and Electrical Installations.',
+    imageUrl: 'https://images.pexels.com/photos/7843949/pexels-photo-7843949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    title: 'Express Delivery',
     description:
-      'Professional installation services for plumbing fixtures, water heaters, water filtration systems, electrical wiring, lighting fixtures, outlets, switches, and more.',
-      price: '130'
+      'Fast and reliable express delivery services for urgent shipments, ensuring quick turnaround times.',
+      price: '150'
   },
   {
-    // imageUrl: '/grid-icons/asset-2.svg',
-    title: 'Fixture Installation and Replacement.',
+    imageUrl: 'https://images.pexels.com/photos/6169668/pexels-photo-6169668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    title: 'Freight Transportation',
     description:
-      'Replacement of old or outdated fixtures with new, efficient models to enhance functionality and aesthetics while improving water conservation.',
+      'Comprehensive freight services, including road, rail, air, and sea transportation, to ensure your goods reach their destination promptly and safely.',
+      price: '500'
+  },
+  {
+    imageUrl: 'https://images.pexels.com/photos/4481326/pexels-photo-4481326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    title: 'Warehousing and Distribution',
+    description:
+      'State-of-the-art warehousing facilities and efficient distribution services to streamline your supply chain.',
+      price: '200'
+  },
+  {
+    imageUrl: 'https://images.pexels.com/photos/3057960/pexels-photo-3057960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    title: 'Customs Brokerage',
+    description:
+      'Expert customs brokerage services to facilitate smooth and hassle-free international shipping.',
       price: '300'
   },
   {
-    // imageUrl: '/grid-icons/asset-3.svg',
-    title: 'Water Heater Installation and Repair',
+    imageUrl: 'https://images.pexels.com/photos/5025669/pexels-photo-5025669.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    title: 'Supply Chain Solutions',
     description:
-      'Installation of traditional tank-style water heaters, tankless water heaters, and heat pump water heaters to provide reliable hot water supply for your home or business.',
-      price: '215'
+      'End-to-end supply chain management solutions designed to optimize efficiency and reduce costs.',
+      price: '1000'
   },
   {
-    // imageUrl: '/grid-icons/asset-4.svg',
-    title: 'Pipe Leak Detection and Repairs',
+    imageUrl: 'https://images.pexels.com/photos/6169638/pexels-photo-6169638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    title: 'E-commerce Logistics',
     description:
-      'Detection and repair of hidden leaks in plumbing pipes using advanced leak detection technology and non-invasive methods to minimize disruption to your property.',
-      price: '115'
-  },
-  {
-    // imageUrl: '/grid-icons/asset-5.svg',
-    title: 'Drain Cleaning and Unclogging',
-    description:
-      'Professional drain cleaning services to remove clogs, blockages, and buildup from drains, sewer lines, and drainpipes using hydro-jetting, snaking, and other specialized equipment.',
-      price: '342'
-  },
-  {
-    // imageUrl: '/grid-icons/asset-6.svg',
-    title: 'Sump Pump Installation and Maintenance',
-    description:
-      'Installation of sump pumps and backup sump pumps to prevent basement flooding and protect your property from water damage during heavy rainfall or groundwater infiltration.',
+      'Tailored logistics solutions for e-commerce businesses, including order fulfillment, inventory management, and last-mile delivery.',
+      price: '250'
   },
 ];
+
 
 export default function FeaturesPage() {
   return (
     <Page title="Services" description="In addition to our wide selection of hardware products, we offer professional contracting services to help you bring your vision to life. Our experienced team of contractors specializes in a variety of services.">
       <Wrapper>
       <ImageContainer>
-        <NextImage src={"https://images.pexels.com/photos/7616004/pexels-photo-7616004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} alt={"IMage"} layout="fill" objectFit="cover" />
+        <NextImage src={"https://images.pexels.com/photos/6169002/pexels-photo-6169002.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} alt={"IMage"} layout="fill" objectFit="cover" />
       </ImageContainer>
         <CustomAutofitGrid>
           {FEATURES.map((singleFeature, idx) => (
